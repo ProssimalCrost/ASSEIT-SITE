@@ -13,7 +13,7 @@ export default function Navbar() {
             height={60}
             className="object-contain"
           />
-        <ul className="flex gap-6 font-medium text-blue-800">
+        <ul className="flex gap-6 font-large text-blue-800">
           <li><Link href="/">Início</Link></li>
           <li><Link href="/about">Sobre</Link></li>
           <li><Link href="/empresas">Empresas</Link></li>
