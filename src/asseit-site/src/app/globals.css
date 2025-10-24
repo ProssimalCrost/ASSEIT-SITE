@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 body {
-  @apply bg-asseit-gradient text-gray-900 antialiased;
+ /* @apply bg-asseit-gradient text-gray-900 antialiased;*/
+ background-color: rgb(105, 183, 235);
 }
 
 a {
-  @apply hover:text-asseitBlue transition;
+/*  @apply hover:text-asseitBlue transition;*/
 }

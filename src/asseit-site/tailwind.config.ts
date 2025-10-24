@@ -13,8 +13,8 @@ const config: Config = {
         asseitYellow: "#FACC15", // amarelo suave
       },
       backgroundImage: {
-        "asseit-gradient":
-          "linear-gradient(to right, #06B6D4, #86EFAC, #FDE047)", // gradiente institucional
+       /* "asseit-gradient":
+          "linear-gradient(to right, #06B6D4, #86EFAC, #FDE047)", // gradiente institucional*/
       },
     },
   },
