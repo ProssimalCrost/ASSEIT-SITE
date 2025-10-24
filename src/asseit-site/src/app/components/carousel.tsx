@@ -3,14 +3,14 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const StyledH1 = styled("h1")`
-  background: rgba(0, 162, 255, 0.67);
+  background: rgba(0, 162, 255, 1);
   border-radius: 12px;
   padding: 5px;
   max-width: 800px;
    `;
   
 const StyledH2 = styled("h2")`
-  background: rgba(56, 59, 240, 0.69);
+  background: rgba(56, 59, 240, 1);
   border-radius: 12px;   
   padding: 10px;
   max-width: 500px;
@@ -19,17 +19,17 @@ const StyledH2 = styled("h2")`
 `;
 
 const Button = styled("button")`
-  background-color: #062077ff;
+  background-color: #061957ff;
   color: white;
   font-weight: 500;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border: none;
   border-radius: 12px;
   cursor: pointer;
   margin-top: 15px;
 
   &:hover {
-    background-color: #4338ca;
+    background-color: #00a2ffff;
   }
 `;
 
@@ -90,11 +90,11 @@ export default function BackgroundCarousel() {
       
         <div className="flex flex-col gap-8">
           <div className="justify-center items-center flex flex-col">
-            <StyledH1>
+           <StyledH1>
             <h1 className="text-6xl font-extrabold text-white drop-shadow-lg mb-6">
                 Associação das Empresas Industriais de Timóteo
             </h1>
-            </StyledH1>
+           </StyledH1>
           </div>
           
           <div className="justify-center items-center flex flex-col">
@@ -105,7 +105,7 @@ export default function BackgroundCarousel() {
            </h1>
            </StyledH2>
            <Button>
-             <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-5 rounded-lg shadow-md hover:scale-105 transition-transform duration-200">Conheça a ASSEIT</button>
+             <button className="bg-blue-600 hover:bg-blue-600 text-white font-medium py-2 px-5 rounded-lg shadow-md hover:scale-105 transition-transform duration-200">Conheça a ASSEIT</button>
            </Button>
           </div>
         

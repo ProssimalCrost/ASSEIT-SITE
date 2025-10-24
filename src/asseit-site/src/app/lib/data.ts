@@ -13,4 +13,9 @@ export const empresas = [
     title: "Tekinox",
     description: "Empresa local focada em soluções de engenharia e metalurgia.",
   },
+  {
+    title: "Tessiminas",
+    description:
+      "Especializada em serviços de manutenção industrial e soluções em aço.",
+  }
 ];
