@@ -2,20 +2,40 @@
 import { useEffect, useState } from "react";
 
 export default function BackgroundCarousel() {
+  const [mounted, setMounted] = useState(false);
+  const [index, setIndex] = useState(0);
+
   const images = [
     "https://picsum.photos/1600/900?1",
     "https://picsum.photos/1600/900?2",
     "https://picsum.photos/1600/900?3",
   ];
 
-  const [index, setIndex] = useState(0);
+  useEffect(() => {
+    setMounted(true); // só marca quando está montado no cliente
+  }, []);
 
   useEffect(() => {
+    if (!mounted) return;
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % images.length);
-    }, 4000); // troca a cada 4 segundos
+    }, 10000);
     return () => clearInterval(timer);
-  }, [images.length]);
+  }, [mounted, images.length]);
+
+  if (!mounted) {
+    // Evita renderizar antes da hidratação
+    return (
+      <div
+        style={{
+          position: "absolute",
+          height: "60vh",
+          width: "100%",
+          background: "black",
+        }}
+      />
+    );
+  }
 
   return (
     <div
@@ -43,19 +63,6 @@ export default function BackgroundCarousel() {
           }}
         ></div>
       ))}
-
-      {/* conteúdo opcional sobre o fundo */}
-      <div
-        style={{
-          position: "relative",
-          zIndex: 0,
-          color: "white",
-          textAlign: "center",
-          top: "50%",
-          transform: "translateY(-50%)",
-        }}
-      >
-      </div>  
     </div>
   );
 }
