@@ -11,7 +11,7 @@ const noticias = [
     {
       title: "Retorno das Saunas",
       description: "Saunas voltam a funcionar com novas diretrizes de segurança.",
-      imgUrl: "/sauna.jpg",
+      imgUrl: "/images/sauna.jpg",
     },
   ];
 
@@ -24,6 +24,9 @@ export default function NoticiasSection() {
           <div key={index} className="bg-white p-4 rounded-lg shadow">
             <h3 className="text-xl font-semibold">{noticia.title}</h3>
             <p className="text-gray-700">{noticia.description}</p>
+            <p>
+              <img src={noticia.imgUrl} alt={noticia.title} className="mt-2 rounded-md" />
+            </p>
           </div>
         ))}
       </div>
