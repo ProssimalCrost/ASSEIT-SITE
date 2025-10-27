@@ -3,7 +3,7 @@ import { use } from "react";
 import Carousel from "./components/carousel";
 import styled from "styled-components";
 
-const Button = styled("button")`
+const StyleB = styled("button")`
   background-color: #061957ff;
   color: white;
   font-weight: 500;
@@ -21,6 +21,7 @@ const Button = styled("button")`
 
 export default function HomePage() {
   return (
+    
     <main>  
       <Carousel/>
 
@@ -36,10 +37,10 @@ export default function HomePage() {
               Unindo forças para o desenvolvimento industrial e comunitário de
               Timóteo.
            </h1>
-  
-           <Button>
-             <button className="bg-blue-600 hover:bg-blue-600 text-white font-medium py-2 px-5 rounded-lg shadow-md hover:scale-105 transition-transform duration-200">Conheça a ASSEIT</button>
-           </Button>
+
+           <StyleB>
+            Conheça a ASSEIT
+           </StyleB>
           </div>
         
         </div>
