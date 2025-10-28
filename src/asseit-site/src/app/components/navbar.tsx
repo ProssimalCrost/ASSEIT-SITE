@@ -30,7 +30,6 @@ export default function Navbar() {
           <li><Link href="/about"><InfoIcon fontSize="large"/></Link></li>
           <li><Link href="/empresas"><BusinessIcon fontSize="large"/></Link></li>
           <li><Link href="/estrutura"><PoolIcon fontSize="large"/></Link></li>
-          <li><Link href="/noticias"><div>Notícias</div></Link></li>
           <li><Link href="/contato"><CallIcon fontSize="large"/></Link></li>
         </StyledUl>
       </nav>

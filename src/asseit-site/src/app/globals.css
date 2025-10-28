@@ -4,9 +4,11 @@
 
 body {
  /* @apply bg-asseit-gradient text-gray-900 antialiased;*/
- background-color: rgb(183, 213, 233);
+ background-color: rgb(104, 160, 182);
 }
 
 a {
 /*  @apply hover:text-asseitBlue transition;*/
 }
+
+/* fundo anterior rgb(183, 213, 233) */
