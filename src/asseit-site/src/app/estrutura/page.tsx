@@ -1,4 +1,5 @@
 import Section from "../components/section";
+import TabelaHorarios from "../components/tabela";  
 
 export const metadata = {
   title: "Sobre | ASSEIT",
@@ -76,8 +77,7 @@ export default function SobrePage() {
               loading="lazy"
             />
             <p className="mt-2 text-xs text-slate-500 text-center">
-              *Caso a imagem não apareça, verifique se o arquivo
-              <code className="mx-1">/public/images/tabela-horarios-asseit.png</code> foi adicionado ao projeto.
+              <TabelaHorarios />
             </p>
           </div>
         </section>
