@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function SobrePage() {
   return (
-    <Section title="Sobre a ASSEIT">
+    <Section>
     <main className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">
       <section className="mx-auto max-w-5xl px-4 pb-16 pt-10 md:pt-16">
         <header className="mb-8 md:mb-12 text-center">
