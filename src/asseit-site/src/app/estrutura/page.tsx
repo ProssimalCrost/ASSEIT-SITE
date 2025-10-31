@@ -1,5 +1,5 @@
 import Section from "../components/section";
-import TabelaHorarios from "../components/tabela";  
+import TabelaHorarios from "../components/tabelaHorarios";  
 
 export const metadata = {
   title: "Sobre | ASSEIT",
@@ -93,6 +93,27 @@ export default function SobrePage() {
           <p className="text-sm text-slate-500">Inscrições, dúvidas e mais informações.</p>
         </div>
       </section>
+
+      <section>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 justify-items-center mx-auto max-w-5xl px-4 pb-16">
+          <article className="rounded-2xl bg-white shadow-sm ring-1 ring-slate-200 p-6 md:p-8">
+            <h2 className="text-xl md:text-2xl font-bold text-slate-900">Academia</h2>
+            <p className="mt-3 text-slate-600">
+              Ajuda na melhora do condicionamento físico geral, fortalecimento muscular e
+              promoção da saúde. A academia é equipada com aparelhos modernos e oferece um ambiente
+              motivador para a prática de exercícios físicos.
+            </p>
+            <ul className="mt-3 space-y-1 text-slate-600 list-disc list-inside">
+              <li>Melhora do condicionamento cardiovascular</li>
+              <li>Fortalecimento muscular sem sobrecarga</li>
+              <li>Aumento da flexibilidade e mobilidade</li>
+              <li>Alívio de dores e estresse</li>
+              <li>Convívio social e motivação</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
     </main>
   </Section>
   );
