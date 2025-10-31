@@ -4,25 +4,37 @@ import Button from "../components/button";
 export default function ContatoPage() {
   return (
     <Section title="Contato">
-      <div className="bg-white/80 backdrop-blur-md rounded-xl p-8 shadow-md max-w-lg mx-auto">
-        <form className="flex flex-col gap-4">
-          <input
-            type="text"
-            placeholder="Seu nome"
-            className="border rounded-lg p-3"
-          />
-          <input
-            type="email"
-            placeholder="Seu e-mail"
-            className="border rounded-lg p-3"
-          />
-          <textarea
-            placeholder="Sua mensagem"
-            rows={5}
-            className="border rounded-lg p-3"
-          ></textarea>
-          <Button>Enviar mensagem</Button>
-        </form>
+      <div className="bg-white/80 backdrop-blur-md rounded-2xl shadow-lg p-8 max-w-lg mx-auto">
+        <table className="w-full text-left border-separate border-spacing-y-3">
+          <thead>
+            <tr className="text-gray-700 border-b border-gray-200">
+              <th className="py-2 px-3 font-semibold">Empresa</th>
+              <th className="py-2 px-3 font-semibold">Contato</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="hover:bg-gray-100 transition-colors">
+              <td className="py-2 px-3 text-gray-800">Secretaria do Clube</td>
+              <td className="py-2 px-3 text-blue-600 font-medium">
+                <a href="tel:+553138491774" className="hover:underline">
+                  (31) 3849-1774
+                </a>
+              </td>
+            </tr>
+            <tr className="hover:bg-gray-100 transition-colors">
+              <td className="py-2 px-3 text-gray-800">Secretaria da Academia</td>
+              <td className="py-2 px-3 text-blue-600 font-medium">
+                <a href="tel:+553138491774" className="hover:underline">
+                  (31) 3849-4692
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div className="text-center mt-6">
+          <Button>Enviar Mensagem</Button>
+        </div>
       </div>
     </Section>
   );

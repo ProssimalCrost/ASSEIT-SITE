@@ -76,9 +76,9 @@ export default function SobrePage() {
               className="w-full h-auto rounded-xl"
               loading="lazy"
             />
-            <p className="mt-2 text-xs text-slate-500 text-center">
+            <div className="mt-2 text-xs text-slate-500 text-center">
               <TabelaHorarios />
-            </p>
+            </div>
           </div>
         </section>
 
