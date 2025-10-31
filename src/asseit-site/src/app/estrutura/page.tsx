@@ -69,13 +69,6 @@ export default function SobrePage() {
           </p>
 
           <div className="mt-4 rounded-2xl bg-white shadow-sm ring-1 ring-slate-200 p-3 md:p-4">
-            {/* Substitua o caminho da imagem para o arquivo dentro de /public/images */}
-            <img
-              src="/images/tabela-horarios-asseit.png"
-              alt="Tabela de horários de natação e hidroginástica da ASSEIT"
-              className="w-full h-auto rounded-xl"
-              loading="lazy"
-            />
             <div className="mt-2 text-xs text-slate-500 text-center">
               <TabelaHorarios />
             </div>
