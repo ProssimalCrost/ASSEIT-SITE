@@ -11,7 +11,11 @@ import FactoryIcon from '@mui/icons-material/Factory';
 import PoolIcon from '@mui/icons-material/Pool';
 import CallIcon from '@mui/icons-material/Call';
 
-const StyledUl = styled("ul")`
+interface StyledUlProps {
+  open: boolean;
+}
+
+const StyledUl = styled("ul")<StyledUlProps>`
   display: flex;
   gap: 3rem;
   color: #0e02b4ff;
