@@ -91,7 +91,7 @@ export default function SobrePage() {
       {/*/////////////Seção Academia//////////////// */}
 
         <section>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 justify-items-center mx-auto max-w-5xl px-4 pb-16">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-6 md:gap-8 justify-items-center mx-auto max-w-6xl px-4 pb-16">
             <article className="rounded-2xl bg-white shadow-sm ring-1 ring-slate-200 p-6 md:p-8">
               <h2 className="text-xl md:text-2xl font-bold text-slate-900">Academia</h2>
               <p className="mt-3 text-slate-600">
