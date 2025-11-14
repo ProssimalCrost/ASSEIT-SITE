@@ -14,7 +14,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white/60 backdrop-blur-md fixed top-0 w-full z-20 shadow-sm">
+    <header className="bg-white/60 backdrop-blur-md fixed top-0 w-full z-50 shadow-sm">
       <nav className="max-w-6xl mx-auto flex justify-between items-center px-6 py-3">
         {/* Logo */}
         <div className="flex items-center gap-2">
@@ -63,37 +63,77 @@ export default function Navbar() {
         >
           {menuOpen ? <CloseIcon fontSize="large" /> : <MenuIcon fontSize="large" />}
         </button>
-
-        {/* Menu Mobile */}
-        <div
-          className={`fixed top-0 right-0 h-full w-2/3 bg-white/95 backdrop-blur-md shadow-lg transform transition-transform duration-300 ease-in-out md:hidden flex flex-col items-center justify-center gap-6 text-blue-900 font-medium ${
-            menuOpen ? "translate-x-0" : "translate-x-full"
-          }`}
-        >
-          <Link href="/" onClick={() => setMenuOpen(false)} className="flex items-center gap-2">
-            <HomeIcon /> Home
-          </Link>
-          <Link href="/about" onClick={() => setMenuOpen(false)} className="flex items-center gap-2">
-            <InfoIcon /> Sobre
-          </Link>
-          <Link href="/empresas" onClick={() => setMenuOpen(false)} className="flex items-center gap-2">
-            <FactoryIcon /> Empresas
-          </Link>
-          <Link href="/estrutura" onClick={() => setMenuOpen(false)} className="flex items-center gap-2">
-            <PoolIcon /> Estrutura
-          </Link>
-          <Link href="/contato" onClick={() => setMenuOpen(false)} className="flex items-center gap-2">
-            <CallIcon /> Contato
-          </Link>
-        </div>
       </nav>
 
-      {/* Overlay escurecido ao abrir o menu */}
+      {/* Overlay e Menu Mobile */}
       {menuOpen && (
-        <div
-          className="fixed inset-0 bg-black/40 backdrop-blur-sm md:hidden"
-          onClick={() => setMenuOpen(false)}
-        />
+        <>
+          {/* Overlay escurecido */}
+          <div
+            className="fixed inset-0 bg-black/10 backdrop-blur-sm md:hidden z-40"
+            onClick={() => setMenuOpen(false)}
+          />
+          
+          {/* Menu Mobile Centralizado */}
+          <div
+            className={`relative inset-0 flex items-center justify-center md:hidden z-50 transition-all duration-300 ${
+              menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+            }`}
+          >
+            <div
+              className="bg-white/80 backdrop-blur-md rounded-2xl shadow-2xl
+               p-4 mx-4 w-full max-w-sm flex flex-col items-center justify-center
+               gap-6 text-blue-900 font-medium transform transition-transform duration-300
+               padding-bottom-10"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Botão Fechar */}
+              <button
+                onClick={() => setMenuOpen(false)}
+                className="absolute top-4 right-4 text-blue-900 hover:text-blue-700"
+              >
+                <CloseIcon fontSize="large" />
+              </button>
+
+              {/* Links do Menu */}
+              <Link 
+                href="/" 
+                onClick={() => setMenuOpen(false)} 
+                className="flex items-center gap-3 text-lg w-full justify-center hover:text-blue-700 transition-colors"
+              >
+                <HomeIcon /> Home
+              </Link>
+              <Link 
+                href="/about" 
+                onClick={() => setMenuOpen(false)} 
+                className="flex items-center gap-3 text-lg w-full justify-center hover:text-blue-700 transition-colors"
+              >
+                <InfoIcon /> Sobre
+              </Link>
+              <Link 
+                href="/empresas" 
+                onClick={() => setMenuOpen(false)} 
+                className="flex items-center gap-3 text-lg w-full justify-center hover:text-blue-700 transition-colors"
+              >
+                <FactoryIcon /> Empresas
+              </Link>
+              <Link 
+                href="/estrutura" 
+                onClick={() => setMenuOpen(false)} 
+                className="flex items-center gap-3 text-lg w-full justify-center hover:text-blue-700 transition-colors"
+              >
+                <PoolIcon /> Estrutura
+              </Link>
+              <Link 
+                href="/contato" 
+                onClick={() => setMenuOpen(false)} 
+                className="flex items-center gap-3 text-lg w-full justify-center hover:text-blue-700 transition-colors"
+              >
+                <CallIcon /> Contato
+              </Link>
+            </div>
+          </div>
+        </>
       )}
     </header>
   );
