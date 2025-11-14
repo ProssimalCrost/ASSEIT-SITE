@@ -14,8 +14,8 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white/60 backdrop-blur-md fixed top-0 w-full z-50 shadow-sm">
-      <nav className="max-w-6xl mx-auto flex justify-between items-center px-6 py-3">
+    <header className="bg-white/30 backdrop-blur-md fixed top-0 w-full z-50 shadow-sm">
+      <nav className="max-w-6xl mx-auto flex justify-between items-center px-6 py-1">
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Image
