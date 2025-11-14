@@ -21,7 +21,7 @@ export default function HomePage() {
   return (
     <>
       {/* === Seção principal com o carrossel === */}
-      <main className="relative">
+      <main className="relative max-sm:h-[350px] ">
         {/* Fundo com o carrossel */}
         <section className="absolute inset-0 z-0">
           <Carousel />
