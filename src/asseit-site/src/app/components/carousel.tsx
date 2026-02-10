@@ -12,57 +12,56 @@ export default function BackgroundCarousel() {
   ];
 
   useEffect(() => {
-    setMounted(true); // só marca quando está montado no cliente
+    setMounted(true);
   }, []);
 
   useEffect(() => {
     if (!mounted) return;
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % images.length);
-    }, 10000);
+    }, 8000);
     return () => clearInterval(timer);
   }, [mounted, images.length]);
 
   if (!mounted) {
-    // Evita renderizar antes da hidratação
-    return (
-      <div
-        style={{
-          position: "absolute",
-          height: "60vh",
-          width: "100%",
-          background: "black",
-        }}
-      />
-    );
+    return <div style={{ height: "300px", width: "100%", background: "#000" }} />;
   }
 
   return (
     <div
       style={{
-        position: "absolute",
-        height: "60vh",
         width: "100%",
-        overflow: "hidden",
+        display: "flex",
+        justifyContent: "center",
+        padding: "20px",
       }}
     >
-      {images.map((src, i) => (
-        <div
-          key={i}
-          style={{
-            backgroundImage: `url(${src})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            position: "absolute",
-            top: 0,
-            left: 0,
-            height: "100%",
-            width: "100%",
-            opacity: i === index ? 1 : 0,
-            transition: "opacity 1s ease-in-out",
-          }}
-        ></div>
-      ))}
+      {/* Container do carrossel */}
+      <div
+        style={{
+          position: "relative",
+          width: "100%",
+          maxWidth: "1300px",
+          aspectRatio: "16 / 9",
+          borderRadius: "20px",
+          overflow: "hidden",
+        }}
+      >
+        {images.map((src, i) => (
+          <div
+            key={i}
+            style={{
+              position: "absolute",
+              inset: 0,
+              backgroundImage: `url(${src})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              opacity: i === index ? 1 : 0,
+              transition: "opacity 1s ease-in-out",
+            }}
+          />
+        ))}
+      </div>
     </div>
   );
 }

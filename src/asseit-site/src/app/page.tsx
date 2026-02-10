@@ -29,8 +29,8 @@ export default function HomePage() {
 
         {/* Conteúdo sobre o carrossel */}
       <div className="relative py-20">
-        <div className="relative z-5 flex flex-col justify-center items-center text-center gap-2 pb-2 mx-2 md:mx-10 lg:mx-10 rounded-lg bg-black bg-opacity-10 pb-10">
-          <h1 className="text-5xl font-extrabold text-white drop-shadow-lg mb-1">
+        <div className="relative z-5 flex flex-col justify-center items-center text-center gap-2 pb-2 mx-2 md:mx-10 lg:mx-10 rounded-lg pb-10">
+          <h1 className="text-5xl font-extrabold text-white drop-shadow-lg mb-1 justify-center items-center text-center">
             Associação das Empresas Industriais de Timóteo
           </h1>
           <h2 className="text-2xl text-white mb-6 drop-shadow-md max-w-3xl">
@@ -43,10 +43,7 @@ export default function HomePage() {
 
       {/* === Seção abaixo do carrossel === */}
 
-      <div className="relative pt-40 px mb-20 px-6 md:px-20 lg:px-40">
-        <NoticiasSection />
-       
-      </div>
+      
 
     </>
   );

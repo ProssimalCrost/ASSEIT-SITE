@@ -5,12 +5,12 @@
 body {
  /* @apply bg-asseit-gradient text-gray-900 antialiased;*/
  background-color: 
- rgb(179, 218, 241);
+    #f5f7f5;
+    
 }
 
 a {
 /*  @apply hover:text-asseitBlue transition;*/
 }
 
-/* fundo anterior rgb(183, 213, 233); rgb(104, 160, 182)*/
-/* fundo anterior rgb(183, 213, 233); rgb(104, 160, 182) 30/10/2025*/
+/*  #f5f7f5*/

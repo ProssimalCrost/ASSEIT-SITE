@@ -19,7 +19,7 @@ const noticias = [
 
 export default function NoticiasSection() {
   return (
-    <section className="bg-[#eaf3fa] py-16 px-6 mt-10">
+    <section className="0 py-16 px-6 mt-10">
       <h2 className="text-3xl font-bold mb-6">Notícias e Eventos</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {noticias.map((noticia, index) => (
