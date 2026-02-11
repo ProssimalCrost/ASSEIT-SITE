@@ -26,6 +26,8 @@ export default function HomePage() {
         <section className="absolute inset-0 z-0">
           <Carousel />
         </section>
+        
+        {/* Teste commit*/} 
 
         {/* Conteúdo sobre o carrossel */}
       <div className="relative py-20">
