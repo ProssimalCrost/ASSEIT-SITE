@@ -1,24 +1,13 @@
 "use client";
 import styled from "styled-components";
 import Carousel from "./components/carousel";
-import NoticiasSection from "./components/noticias";
+import NoticiasSection from "./noticias/noticias";
 import Empresas from "./empresas/empresas";
 import Modalidades from "./modalidades/modalidades";
 import Contato from "./contato/contato";
 import Link from "next/link";
 
-const StyleB = styled("button")`
-  background-color: #011f81ff;
-  color: white;
-  font-weight: 500;
-  padding: 10px 10px;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
 
-  &:hover {
-    background-color: #00a2ffff;
-  }`;
 
 export default function HomePage() {
   return (
@@ -44,8 +33,6 @@ export default function HomePage() {
         <Contato />
       </section>
       {/* === Seção abaixo do carrossel === */}
-
-
 
     </>
   );
