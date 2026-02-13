@@ -1,0 +1,7 @@
+Nao haver paginação, 
+nav bar apenas direciona aonde esta o elemento no Main pagina
+
+*Ajusar o menu em tela moblie
+*Ajustar o titulo no moblie
+*adicionar fotos com filtro escuro
+*API whatSzap

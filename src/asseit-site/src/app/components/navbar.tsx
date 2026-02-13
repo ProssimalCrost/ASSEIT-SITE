@@ -36,22 +36,22 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/about" className="flex items-center gap-1 hover:text-blue-700 transition">
-              <InfoIcon fontSize="small" /> Sobre
+            <Link href="#noticias" className="flex items-center gap-1 hover:text-blue-700 transition">
+              <InfoIcon fontSize="small" /> Noticias
             </Link>
           </li>
           <li>
-            <Link href="/empresas" className="flex items-center gap-1 hover:text-blue-700 transition">
+            <Link href="#empresas" className="flex items-center gap-1 hover:text-blue-700 transition">
               <FactoryIcon fontSize="small" /> Empresas
             </Link>
           </li>
           <li>
-            <Link href="/estrutura" className="flex items-center gap-1 hover:text-blue-700 transition">
-              <PoolIcon fontSize="small" /> Estrutura
+            <Link href="#modalidades" className="flex items-center gap-1 hover:text-blue-700 transition">
+              <PoolIcon fontSize="small" /> Modalidades
             </Link>
           </li>
           <li>
-            <Link href="/contato" className="flex items-center gap-1 hover:text-blue-700 transition">
+            <Link href="#contato" className="flex items-center gap-1 hover:text-blue-700 transition">
               <CallIcon fontSize="small" /> Contato
             </Link>
           </li>
@@ -107,13 +107,13 @@ export default function Navbar() {
                 <HomeIcon /> Home
               </Link>
               <Link href="/about" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
-                <InfoIcon /> Sobre
+                <InfoIcon /> Noticias
               </Link>
               <Link href="/empresas" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
                 <FactoryIcon /> Empresas
               </Link>
               <Link href="/estrutura" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
-                <PoolIcon /> Estrutura
+                <PoolIcon /> Modalidades
               </Link>
               <Link href="/contato" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
                 <CallIcon /> Contato

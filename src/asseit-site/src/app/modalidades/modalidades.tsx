@@ -8,7 +8,7 @@ export const metadata = {
     "Conheça a estrutura completa da ASSEIT, as atividades de Natação e Hidroginástica e confira a tabela de horários.",
 };
 
-export default function SobrePage() {
+export default function Modalidades() {
   return (
     <Section>
       <main className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">

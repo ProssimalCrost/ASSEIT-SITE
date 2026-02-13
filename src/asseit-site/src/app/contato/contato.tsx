@@ -1,7 +1,7 @@
 import Section from "../components/section";
 import Button from "../components/button";
 
-export default function ContatoPage() {
+export default function Contato() {
   return (
     <Section title="Contato">
       <div className="bg-white/80 backdrop-blur-md rounded-2xl shadow-lg p-8 max-w-lg mx-auto">
