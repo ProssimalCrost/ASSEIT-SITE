@@ -106,16 +106,16 @@ export default function Navbar() {
               <Link href="/" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
                 <HomeIcon /> Home
               </Link>
-              <Link href="/about" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
+              <Link href="#noticias" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
                 <InfoIcon /> Noticias
               </Link>
-              <Link href="/empresas" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
+              <Link href="#empresas" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
                 <FactoryIcon /> Empresas
               </Link>
-              <Link href="/estrutura" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
+              <Link href="#modalidades" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
                 <PoolIcon /> Modalidades
               </Link>
-              <Link href="/contato" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
+              <Link href="#contato" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
                 <CallIcon /> Contato
               </Link>
 
