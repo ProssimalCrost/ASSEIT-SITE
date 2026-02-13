@@ -29,7 +29,7 @@ export default function Navbar() {
         </Link>
 
         {/* Menu Desktop */}
-        <ul className="hidden md:flex items-center gap-8 text-gray-800 font-medium">
+        <ul className="hidden md:flex items-center gap-8 text-gray-500 font-medium">
           <li>
             <Link href="/" className="flex items-center gap-1 hover:text-blue-700 transition">
               <HomeIcon fontSize="small" /> Home
@@ -63,7 +63,7 @@ export default function Navbar() {
               className="
                 flex items-center gap-2
                 bg-blue-900 text-white
-                px-4 py-2 rounded-xl
+                px-5 py-3 rounded-xl
                 hover:bg-blue-700 transition-colors
                 shadow-md
               "

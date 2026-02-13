@@ -14,23 +14,19 @@ const StyleB = styled("button")`
 
   &:hover {
     background-color: #00a2ffff;
-  }
-`;
+  }`;  
 
 export default function HomePage() {
   return (
     <>
       {/* === Seção principal com o carrossel === */}
-      <main className="relative max-sm:h-[350px] ">
+      <main className="relative h-[530px]  ">
         {/* Fundo com o carrossel */}
         <section className="absolute inset-0 z-0">
           <Carousel />
         </section>
-        
-        {/* Teste commit*/} 
-
         {/* Conteúdo sobre o carrossel */}
-      <div className="relative py-20">
+      <section className="relative py-20  ">
         <div className="relative z-5 flex flex-col justify-center items-center text-center gap-2 pb-2 mx-2 md:mx-10 lg:mx-10 rounded-lg pb-10">
           <h1 className="text-5xl font-extrabold text-white drop-shadow-lg mb-1 justify-center items-center text-center">
             Associação das Empresas Industriais de Timóteo
@@ -40,8 +36,12 @@ export default function HomePage() {
           </h2>
           <StyleB><a href="/estrutura">Conheça a ASSEIT</a></StyleB>
         </div>
-      </div>
+      </section>
       </main>
+
+      <section>
+        <NoticiasSection />
+      </section>
 
       {/* === Seção abaixo do carrossel === */}
 

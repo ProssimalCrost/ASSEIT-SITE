@@ -1,4 +1,3 @@
-
 const noticias = [
     {
       title: "Campeonato Industrial 2025",
@@ -15,11 +14,11 @@ const noticias = [
       description: "Saunas voltam a funcionar com novas diretrizes de segurança.",
       imgUrl: "/images/sauna.jpg",
     },
-  ];
+  ]  
 
 export default function NoticiasSection() {
   return (
-    <section className="0 py-16 px-6 mt-10">
+    <section className="0 py-12 px-4 md:px-8 lg:px-16 bg-gray-100 relative">
       <h2 className="text-3xl font-bold mb-6">Notícias e Eventos</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {noticias.map((noticia, index) => (
