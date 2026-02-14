@@ -2,17 +2,17 @@ const noticias = [
     {
       title: "Campeonato Industrial 2025",
       description: "Empresas associadas participam do torneio anual da ASSEIT.",
-      imgUrl: "/images/campeonato.jpg",
+      imgUrl: "/imagens/campeonato.jpg",
     },
     {
       title: "Reunião com lideranças regionais",
       description: "Evento discutiu estratégias de crescimento sustentável.",
-      imgUrl: "/images/reuniao.jpg",
+      imgUrl: "/imagens/reuniao.jpg",
     },
     {
       title: "Retorno das Saunas",
       description: "Saunas voltam a funcionar com novas diretrizes de segurança.",
-      imgUrl: "/images/sauna.jpg",
+      imgUrl: "/imagens/sauna.jpg",
     },
   ]  
 

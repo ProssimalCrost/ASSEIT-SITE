@@ -39,12 +39,12 @@ export default function BackgroundCarousel() {
   if (!mounted) return null;
 
   return (
-    <section style={{ width: "100%", padding: "20px", display: "flex", justifyContent: "center" }}>
+    <section style={{ width: "100%", height: "100%" , padding: "10px", display: "flex", justifyContent: "center" }}>
       <div
         style={{
           position: "relative",
           width: "100%",
-          maxWidth: "1600px",
+          maxWidth: "1900px",
           // No mobile, o aspectRatio 16/9 é muito pequeno. 
           // Usamos minHeight para garantir que o texto sempre caiba.
           minHeight: "600px",

@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <>
       {/* === Seção principal com o carrossel === */}
-      <main className="relative h-[790px]  ">
+      <main className="relative h-[790px]" id="home" >
         <section className="absolute inset-0 z-0">
           <Carousel />
         </section>

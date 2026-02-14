@@ -17,5 +17,15 @@ export const empresas = [
     title: "Tessiminas",
     description:
       "Especializada em serviços de manutenção industrial e soluções em aço.",
+  },
+  {
+    title: "Cruzeiro",
+    description:
+      "Especializada em serviços de manutenção industrial e soluções em aço.",
+  },
+  {
+    title: "Atletico",
+    description:
+      "Especializada em serviços de manutenção industrial e soluções em aço.",
   }
 ];
