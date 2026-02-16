@@ -9,3 +9,4 @@ nav bar apenas direciona aonde esta o elemento no Main pagina
 *link do app da ASSEIT
 *Criar um StyledComponet para aumentar os botoes do menu dektop
 *Da uma clariada no bg do site
+*MElhorar o Footer

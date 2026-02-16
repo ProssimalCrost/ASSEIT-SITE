@@ -2,7 +2,7 @@ export default function HorarioAcad() {
   return (
     <div className="mt-6 space-y-10">
       {/* ASSOCIADOS */}
-      <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-sm">
+      <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-blue-100 shadow-sm">
         <h2 className="text-xl font-bold text-center py-4 bg-slate-100 text-slate-900">
           Academia SESI Espaço Fitness 2025 — ASSOCIADOS
         </h2>
@@ -94,7 +94,7 @@ export default function HorarioAcad() {
       </div>
 
       {/* NÃO ASSOCIADOS */}
-      <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-sm">
+      <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-purple-100 shadow-sm">
         <h2 className="text-xl font-bold text-center py-4 bg-slate-100 text-slate-900">
           Academia SESI Espaço Fitness 2025 — NÃO ASSOCIADOS
         </h2>
