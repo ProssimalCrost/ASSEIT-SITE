@@ -7,3 +7,4 @@ nav bar apenas direciona aonde esta o elemento no Main pagina
 *Add links da area do usuario
 *link do whatSzap
 *link do app da ASSEIT
+*Criar um StyledComponet para aumentar os botoes do menu dektop

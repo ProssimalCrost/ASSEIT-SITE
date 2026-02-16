@@ -14,16 +14,18 @@ import LoginIcon from "@mui/icons-material/Login";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+//Criar um StyledComponet para aumentar os botoes do menu dektop
+
   return (
     <header className="fixed top-0 w-full z-50 bg-white/60 backdrop-blur-md shadow-sm">
-      <nav className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 py-2">
+      <nav className="max-w-5xl mx-auto flex items-center justify-between px-4 sm:px-6 py-2">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/imagens/logo.png"
             alt="Logo ASSEIT"
-            width={48}
-            height={48}
+            width={60}
+            height={60}
             priority
           />
         </Link>
