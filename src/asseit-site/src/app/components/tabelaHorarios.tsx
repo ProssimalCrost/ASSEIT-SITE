@@ -1,8 +1,8 @@
 export default function TabelaHorarios() {
   return (
-    <div className="mt-6 space-y-10">
+    <main className="mt-6 space-y-10">
       {/* ========================= NATAÇÃO ========================= */}
-      <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-sm">
+      <div className="bg-green-100 overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-sm">
         <table className="w-full min-w-[850px] border-collapse text-slate-800">
           <thead className="bg-slate-100 text-slate-900">
             <tr>
@@ -244,6 +244,6 @@ export default function TabelaHorarios() {
           </tbody>
         </table>
       </div>
-    </div>
+    </main>
   );
 }

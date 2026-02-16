@@ -6,11 +6,6 @@ export default function BackgroundCarousel() {
   const [mounted, setMounted] = useState(false);
   const [index, setIndex] = useState(0);
 
-  const images = [
-    "https://picsum.photos/1600/900?1",
-    "https://picsum.photos/1600/900?2",
-    "https://picsum.photos/1600/900?3",
-  ];
   const StyleB = styled.button`
   background-color: #011f81ff;
   color: white;
@@ -23,6 +18,13 @@ export default function BackgroundCarousel() {
   &:hover {
     background-color: #00a2ffff;
   }`;
+
+  const images = [
+    "https://picsum.photos/1600/900?1",
+    "https://picsum.photos/1600/900?2",
+    "https://picsum.photos/1600/900?3",
+  ];
+
 
   useEffect(() => {
     setMounted(true);
@@ -39,7 +41,7 @@ export default function BackgroundCarousel() {
   if (!mounted) return null;
 
   return (
-    <section style={{ width: "100%", height: "100%" , padding: "10px", display: "flex", justifyContent: "center" }}>
+    <section style={{ width: "100%", height: "100%", padding: "10px", display: "flex", justifyContent: "center" }}>
       <div
         style={{
           position: "relative",
@@ -97,7 +99,7 @@ export default function BackgroundCarousel() {
           </p>
           <StyleB>
             <button>
-              Aplicativo ASSEIT
+                Aplicativo ASSEIT
             </button>
           </StyleB>
         </div>
