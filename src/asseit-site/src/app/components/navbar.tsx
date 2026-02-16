@@ -77,7 +77,7 @@ export default function Navbar() {
         {/* Botão Mobile */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-blue-900 z-50">
+          className="md:hidden text-blue-900 z-50 ">
           {menuOpen ? <CloseIcon fontSize="large" /> : <MenuIcon fontSize="large" />}
         </button>
       </nav>
@@ -85,12 +85,15 @@ export default function Navbar() {
       {/* Overlay Mobile */}
       {menuOpen && (
         <>
-          <div className="fixed inset-0 bg-black/10 backdrop-blur-sm md:hidden"
+          <div className="fixed inset-0 bg-black/10 backdrop-blur-sm md:hidden "
             onClick={() => setMenuOpen(false)}
           />
 
           {/* Menu Mobile */}
-          <div className="fixed inset-0 min-h-screen flex items-center justify-center md:hidden z-50">
+          <div className="
+            fixed inset-0 min-h-screen 
+            flex items-center
+            justify-center md:hidden z-50">
             <div
               className="
                 bg-white backdrop-blur-lg
