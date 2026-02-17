@@ -5,7 +5,7 @@ nav bar apenas direciona aonde esta o elemento no Main pagina
 *Ajustar o titulo no moblie
 *adicionar fotos com filtro escuro
 *Add links da area do usuario
-*link do whatSzap
+*link do whatSzap || Done ||
 *link do app da ASSEIT
 *Criar um StyledComponet para aumentar os botoes do menu dektop
-*Da uma clariada no bg do site
+
