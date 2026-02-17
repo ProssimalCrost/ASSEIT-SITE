@@ -1,189 +1,112 @@
 export default function HorarioAcad() {
+
   return (
-    <div className="mt-6 space-y-10">
-      {/* ASSOCIADOS */}
-      <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-blue-100 shadow-sm">
-        <h2 className="text-xl font-bold text-center py-4 bg-slate-100 text-slate-900">
-          Academia SESI Espaço Fitness 2025 — ASSOCIADOS
+    <section className="w-full py-12 bg-gray-50">
+      <div className="max-w-6xl mx-auto px-4">
+
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Planos Academia Asseit Espaço Fitness - 2026
         </h2>
-        <table className="w-full min-w-[850px] border-collapse text-slate-800">
-          <thead className="bg-slate-200 text-slate-900">
-            <tr>
-              <th className="p-3 text-left font-semibold">Horário</th>
-              <th className="p-3 text-left font-semibold">Plano</th>
-              <th className="p-3 text-left font-semibold">Mensal</th>
-              <th className="p-3 text-left font-semibold">Trimestral</th>
-              <th className="p-3 text-left font-semibold">Semestral</th>
-              <th className="p-3 text-left font-semibold">Anual</th>
-            </tr>
-          </thead>
-          <tbody>
-            {/* Horários Diferenciados */}
-            <tr className="bg-slate-100">
-              <td className="p-3 font-medium" colSpan={6}>
-                Horários Diferenciados (09:00 às 12:00 / 14:00 às 16:00)
-              </td>
-            </tr>
-            <tr>
-              <td className="p-3">3x Semana</td>
-              <td className="p-3">Musculação</td>
-              <td className="p-3">109,00</td>
-              <td className="p-3">98,10</td>
-              <td className="p-3">92,65</td>
-              <td className="p-3">81,75</td>
-            </tr>
-            <tr>
-              <td className="p-3">5x Semana</td>
-              <td className="p-3">Musculação</td>
-              <td className="p-3">118,00</td>
-              <td className="p-3">106,20</td>
-              <td className="p-3">100,30</td>
-              <td className="p-3">88,50</td>
-            </tr>
 
-            {/* Horários Normais */}
-            <tr className="bg-slate-100">
-              <td className="p-3 font-medium" colSpan={6}>
-                Horários Normais (06:00 às 09:00 / 16:00 às 21:00)
-              </td>
-            </tr>
-            <tr>
-              <td className="p-3">3x Semana</td>
-              <td className="p-3">Musculação</td>
-              <td className="p-3">127,00</td>
-              <td className="p-3">114,30</td>
-              <td className="p-3">107,95</td>
-              <td className="p-3">95,25</td>
-            </tr>
-            <tr>
-              <td className="p-3">5x Semana</td>
-              <td className="p-3">Musculação</td>
-              <td className="p-3">135,00</td>
-              <td className="p-3">121,50</td>
-              <td className="p-3">114,75</td>
-              <td className="p-3">101,25</td>
-            </tr>
+        {/* NÃO ASSOCIADOS */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-semibold mb-4 text-red-600">
+            Não Associados
+          </h3>
 
-            {/* Extras */}
-            <tr className="bg-slate-100">
-              <td className="p-3" colSpan={2}>
-                Avaliação
-              </td>
-              <td className="p-3" colSpan={4}>
-                R$ 23,00
-              </td>
-            </tr>
-            <tr className="bg-slate-100">
-              <td className="p-3" colSpan={2}>
-                Reavaliação
-              </td>
-              <td className="p-3" colSpan={4}>
-                R$ 18,00
-              </td>
-            </tr>
-            <tr className="bg-slate-100">
-              <td className="p-3" colSpan={2}>
-                Matrícula
-              </td>
-              <td className="p-3" colSpan={4}>
-                R$ 18,00
-              </td>
-            </tr>
-          </tbody>
-        </table>
+          <div className="overflow-x-auto bg-white rounded-2xl shadow-md">
+            <table className="min-w-full text-sm text-center">
+              <thead className="bg-red-600 text-white">
+                <tr>
+                  <th className="py-3 px-4">Plano</th>
+                  <th className="py-3 px-4">3x Semana</th>
+                  <th className="py-3 px-4">5x Semana</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y">
+                <tr>
+                  <td className="py-3 font-medium">Mensal</td>
+                  <td>R$ 142,00</td>
+                  <td>R$ 152,00</td>
+                </tr>
+                <tr>
+                  <td className="py-3 font-medium">Trimestral</td>
+                  <td>R$ 127,80</td>
+                  <td>R$ 136,80</td>
+                </tr>
+                <tr>
+                  <td className="py-3 font-medium">Semestral</td>
+                  <td>R$ 120,70</td>
+                  <td>R$ 129,20</td>
+                </tr>
+                <tr>
+                  <td className="py-3 font-medium">Anual</td>
+                  <td>R$ 106,50</td>
+                  <td>R$ 114,00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* ASSOCIADOS */}
+        <div>
+          <h3 className="text-2xl font-semibold mb-4 text-green-600">
+            Associados
+          </h3>
+
+          <div className="overflow-x-auto bg-white rounded-2xl shadow-md">
+            <table className="min-w-full text-sm text-center">
+              <thead className="bg-green-600 text-white">
+                <tr>
+                  <th className="py-3 px-4">Plano</th>
+                  <th className="py-3 px-4">3x Semana</th>
+                  <th className="py-3 px-4">5x Semana</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y">
+                <tr>
+                  <td className="py-3 font-medium">Mensal</td>
+                  <td>R$ 127,00</td>
+                  <td>R$ 135,00</td>
+                </tr>
+                <tr>
+                  <td className="py-3 font-medium">Trimestral</td>
+                  <td>R$ 114,30</td>
+                  <td>R$ 121,50</td>
+                </tr>
+                <tr>
+                  <td className="py-3 font-medium">Semestral</td>
+                  <td>R$ 107,95</td>
+                  <td>R$ 114,75</td>
+                </tr>
+                <tr>
+                  <td className="py-3 font-medium">Anual</td>
+                  <td>R$ 95,25</td>
+                  <td>R$ 101,25</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* Informações Extras */}
+        <div className="mt-12 bg-white p-6 rounded-2xl shadow-md text-sm space-y-2">
+          <p><strong>Avaliação:</strong> R$ 23,00</p>
+          <p><strong>Reavaliação:</strong> R$ 18,00</p>
+          <p><strong>Matrícula:</strong> R$ 18,00</p>
+
+          <div className="pt-4 border-t mt-4">
+            <p><strong>Horário de Funcionamento:</strong></p>
+            <p>Segunda à Sexta: 06h às 12h | 14h às 21h</p>
+            <p>Sábado: 08h às 11h</p>
+            <p className="mt-2 text-green-600 font-medium">
+              Plano Família: 6% de desconto
+            </p>
+          </div>
+        </div>
+
       </div>
-
-      {/* NÃO ASSOCIADOS */}
-      <div className="overflow-x-auto rounded-2xl border border-slate-300 bg-purple-100 shadow-sm">
-        <h2 className="text-xl font-bold text-center py-4 bg-slate-100 text-slate-900">
-          Academia SESI Espaço Fitness 2025 — NÃO ASSOCIADOS
-        </h2>
-        <table className="w-full min-w-[850px] border-collapse text-slate-800">
-          <thead className="bg-slate-200 text-slate-900">
-            <tr>
-              <th className="p-3 text-left font-semibold">Horário</th>
-              <th className="p-3 text-left font-semibold">Plano</th>
-              <th className="p-3 text-left font-semibold">Mensal</th>
-              <th className="p-3 text-left font-semibold">Trimestral</th>
-              <th className="p-3 text-left font-semibold">Semestral</th>
-              <th className="p-3 text-left font-semibold">Anual</th>
-            </tr>
-          </thead>
-          <tbody>
-            {/* Horários Diferenciados */}
-            <tr className="bg-slate-100">
-              <td className="p-3 font-medium" colSpan={6}>
-                Horários Diferenciados (09:00 às 12:00 / 14:00 às 16:00)
-              </td>
-            </tr>
-            <tr>
-              <td className="p-3">3x Semana</td>
-              <td className="p-3">Musculação</td>
-              <td className="p-3">120,70</td>
-              <td className="p-3">127,80</td>
-              <td className="p-3">142,00</td>
-              <td className="p-3">106,50</td>
-            </tr>
-            <tr>
-              <td className="p-3">5x Semana</td>
-              <td className="p-3">Musculação</td>
-              <td className="p-3">136,80</td>
-              <td className="p-3">129,20</td>
-              <td className="p-3">152,00</td>
-              <td className="p-3">114,00</td>
-            </tr>
-
-            {/* Horários Normais */}
-            <tr className="bg-slate-100">
-              <td className="p-3 font-medium" colSpan={6}>
-                Horários Normais (06:00 às 09:00 / 16:00 às 21:00)
-              </td>
-            </tr>
-            <tr>
-              <td className="p-3">3x Semana</td>
-              <td className="p-3">Musculação</td>
-              <td className="p-3">127,00</td>
-              <td className="p-3">114,30</td>
-              <td className="p-3">107,95</td>
-              <td className="p-3">95,25</td>
-            </tr>
-            <tr>
-              <td className="p-3">5x Semana</td>
-              <td className="p-3">Musculação</td>
-              <td className="p-3">135,00</td>
-              <td className="p-3">121,50</td>
-              <td className="p-3">114,75</td>
-              <td className="p-3">101,25</td>
-            </tr>
-
-            {/* Extras */}
-            <tr className="bg-slate-100">
-              <td className="p-3" colSpan={2}>
-                Avaliação
-              </td>
-              <td className="p-3" colSpan={4}>
-                R$ 23,00
-              </td>
-            </tr>
-            <tr className="bg-slate-100">
-              <td className="p-3" colSpan={2}>
-                Reavaliação
-              </td>
-              <td className="p-3" colSpan={4}>
-                R$ 18,00
-              </td>
-            </tr>
-            <tr className="bg-slate-100">
-              <td className="p-3" colSpan={2}>
-                Matrícula
-              </td>
-              <td className="p-3" colSpan={4}>
-                R$ 18,00
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  );
+    </section>
+  )
 }

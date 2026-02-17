@@ -219,12 +219,6 @@ export default function TabelaHorarios() {
             </tr>
             <tr className="odd:bg-violet-50">
               <td className="p-3">Hidroginástica 2x</td>
-              <td className="p-3">17:40 às 18:25</td>
-              <td className="p-3">27</td>
-              <td className="p-3">terça e quinta</td>
-            </tr>
-            <tr className="odd:bg-violet-50">
-              <td className="p-3">Hidroginástica 2x</td>
               <td className="p-3">07:00 às 07:45</td>
               <td className="p-3">29</td>
               <td className="p-3">terça e quinta</td>
@@ -234,12 +228,6 @@ export default function TabelaHorarios() {
               <td className="p-3">07:50 às 08:35</td>
               <td className="p-3">30</td>
               <td className="p-3">terça e quinta</td>
-            </tr>
-            <tr className="odd:bg-violet-50">
-              <td className="p-3">Hidroginástica 2x</td>
-              <td className="p-3">16:00 às 16:45</td>
-              <td className="p-3">31</td>
-              <td className="p-3">terça a sexta</td>
             </tr>
           </tbody>
         </table>

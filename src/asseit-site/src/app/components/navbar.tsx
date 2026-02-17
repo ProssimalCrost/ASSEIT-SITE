@@ -87,7 +87,7 @@ export default function Navbar() {
       {/* Overlay Mobile */}
       {menuOpen && (
         <>
-          <div className="fixed inset-0 bg-black/10 backdrop-blur-sm md:hidden "
+          <div className="fixed inset-0 bg-black/10 backdrop-blur-sm md:hidden z-999 "
             onClick={() => setMenuOpen(false)}
           />
 
@@ -95,7 +95,7 @@ export default function Navbar() {
           <div className="
             fixed inset-0 min-h-screen 
             flex items-center
-            justify-center md:hidden z-50">
+            justify-center md:hidden z-9999">
             <div
               className="
                 bg-white backdrop-blur-lg
