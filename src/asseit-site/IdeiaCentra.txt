@@ -1,6 +1,6 @@
 lista abertos = 
 [
-*Ajusar o menu em tela moblie
+
 *adicionar fotos com filtro escuro e corousel fotos ASSEI 
 ]
 
@@ -10,5 +10,5 @@ lista feios =
 *link do app da ASSEIT || Done ||
 *Melhorar Footer || Done ||
 *Add links da area do usuario || Done ||
-
+*Ajusar o menu em tela moblie || Done ||
 ]
