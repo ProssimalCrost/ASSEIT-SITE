@@ -22,10 +22,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/imagens/logo.png"
+            src="/imagens/logo1.png"
             alt="Logo ASSEIT"
-            width={60}
-            height={60}
+            width={40}
+            height={40}
             priority
           />
         </Link>
@@ -123,7 +123,7 @@ export default function Navbar() {
 
               {/* Área do Associado Mobile */}
               <Link
-                href="/area-do-associado"
+                href="https://csplus.com.br/auth?cliente=d2e82682af0d4084b42697ad294592cd&acesso=associado"
                 onClick={() => setMenuOpen(false)}
                 className="
                   mt-2 w-full flex items-center justify-center gap-2

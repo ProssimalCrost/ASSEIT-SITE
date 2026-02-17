@@ -34,7 +34,10 @@ export default function Modalidades() {
                 <img src="/imagens/natacao.png" alt="natacao" className="w-full rounded-md mb-3" />
               </p>
               <p className="text-slate-600 mt-3">
-                A natação é uma das atividades mais visadas na ASSEIT, a partir de 4 anos.
+                O esporte mais completo, desde cedo. 
+                A natação na ASSEIT é referência em aprendizado aquático.
+                A partir dos 4 anos, oferecemos uma estrutura de ponta para desenvolver a confiança e a saúde das crianças.
+                Garanta uma vaga na modalidade mais visada do clube!
               </p>
               
             </article>

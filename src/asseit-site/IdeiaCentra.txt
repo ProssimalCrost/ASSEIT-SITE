@@ -1,10 +1,7 @@
 lista abertos = 
 [
 *Ajusar o menu em tela moblie
-*Ajustar o titulo no moblie
 *adicionar fotos com filtro escuro e corousel fotos ASSEI 
-*Criar um StyledComponet para aumentar os botoes do menu dektop
-*Remover botao fale com a secretaria
 ]
 
 lista feios = 
