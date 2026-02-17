@@ -2,7 +2,7 @@ export default function TabelaHorarios() {
   return (
     <main className="mt-6 space-y-10">
       {/* ========================= NATAÇÃO ========================= */}
-      <div className="bg-green-100 overflow-x-auto rounded-2xl border border-slate-300 bg-white shadow-sm">
+      <div className="bg-blue-100 overflow-x-auto rounded-2xl border border-slate-300  shadow-sm">
         <table className="w-full min-w-[850px] border-collapse text-slate-800">
           <thead className="bg-slate-100 text-slate-900">
             <tr>
