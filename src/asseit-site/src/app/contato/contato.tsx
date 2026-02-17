@@ -3,7 +3,6 @@ import Button from "../components/button";
 
   const Whatsapp = () => {
       const phone = "5531986584245";
-      const message = "Vamo codar juntos!";
       const link = `https://api.whatsapp.com/send/?phone=55319986584245&text=Ola+diga+o+assunto%21&type=phone_number&app_absent=0`
       window.open(link)
     }

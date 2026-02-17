@@ -61,7 +61,7 @@ export default function Navbar() {
           {/* Área do Associado */}
           <li>
             <Link
-              href="/area-do-associado"
+              href="https://csplus.com.br/auth?cliente=d2e82682af0d4084b42697ad294592cd&acesso=associado"
               className="
                 flex items-center gap-2
                 bg-blue-900 text-white

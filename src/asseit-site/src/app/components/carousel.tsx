@@ -1,10 +1,16 @@
 "use client";
+import { link } from "fs";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 export default function BackgroundCarousel() {
   const [mounted, setMounted] = useState(false);
   const [index, setIndex] = useState(0);
+
+  const App = () =>{
+    const link = `https://play.google.com/store/apps/details?id=com.clubsystem.asseit&pcampaignid=web_share`;
+    window.open(link)
+  }
 
   const StyleB = styled.button`
   background-color: #011f81ff;
@@ -97,8 +103,8 @@ export default function BackgroundCarousel() {
           <p style={{ fontSize: "clamp(1rem, 2vw, 1.2rem)", maxWidth: "600px" }}>
             Unindo forças para o desenvolvimento industrial e comunitário de Timóteo.
           </p>
-          <StyleB>
-            <button>
+          <StyleB onClick={App}>
+            <button >
                 Aplicativo ASSEIT
             </button>
           </StyleB>
