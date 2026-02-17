@@ -9,8 +9,9 @@ body {
     
 }
 
-a {
-/*  @apply hover:text-asseitBlue transition;*/
+/* Adiciona o efeito vapt-vupt mais suave para navegação*/
+html {
+  scroll-behavior: smooth;
 }
 
-/*  #ebebeb */
+

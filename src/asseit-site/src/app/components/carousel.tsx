@@ -41,7 +41,7 @@ export default function BackgroundCarousel() {
   if (!mounted) return null;
 
   return (
-    <section style={{ width: "100%", height: "100%", padding: "10px", display: "flex", justifyContent: "center" }}>
+    <section style={{ width: "100%", height: "100%", padding: "10px", display: "flex", justifyContent: "center" }} id="home">
       <div
         style={{
           position: "relative",
