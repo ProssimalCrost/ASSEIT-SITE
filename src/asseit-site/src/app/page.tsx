@@ -1,6 +1,6 @@
 "use client";
 import styled from "styled-components";
-import Carousel from "./components/carousel";
+import Carousel from "./components/caroussel";
 import NoticiasSection from "./noticias/noticias";
 import Empresas from "./empresas/empresas";
 import Modalidades from "./modalidades/modalidades";

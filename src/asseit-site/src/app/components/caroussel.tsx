@@ -24,14 +24,14 @@ export default function BackgroundCarousel() {
   &:hover {
     background-color: #00a2ffff;
   }`;
-
-  const images = [
-   "./caroussel/img1.jpg",
-   "./caroussel/img2.jpg",
-   "./caroussel/img3.jpg",
-   "./caroussel/img4.jpg",
-   "./caroussel/img5.jpg",
-  ];
+  
+const images = [
+  "/caroussel/img1.jpg",
+  "/caroussel/img2.jpg",
+  "/caroussel/img3.jpg",
+  "/caroussel/img4.jpg",
+  "/caroussel/img5.jpg",
+];
 
 
   useEffect(() => {
