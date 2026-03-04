@@ -26,11 +26,11 @@ export default function BackgroundCarousel() {
   }`;
   
 const images = [
-  "/caroussel/img1.jpg",
-  "/caroussel/img2.jpg",
-  "/caroussel/img3.jpg",
-  "/caroussel/img4.jpg",
-  "/caroussel/img5.jpg",
+  "/caro/img1.jpg",
+  "/caro/img2.jpg",
+  "/caro/img3.jpg",
+  "/caro/img4.jpg",
+  "/caro/img5.jpg",
 ];
 
 
