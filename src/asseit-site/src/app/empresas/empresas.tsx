@@ -6,13 +6,7 @@ import { empresas } from "../lib/data";
 export default function Empresas() {
   return (
   <main className="text-black bg-blue-100">
-    <Section title="Empresas Associadas">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {empresas.map((empresa, i) => (
-          <Card key={i} title={empresa.title} description={empresa.description} />
-        ))}
-      </div>
-    </Section>
+   <h1>COLOCAR VIDEO</h1>
   </main>  
   );
 }

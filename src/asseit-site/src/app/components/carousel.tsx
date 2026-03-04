@@ -26,9 +26,11 @@ export default function BackgroundCarousel() {
   }`;
 
   const images = [
-    "https://picsum.photos/1600/900?1",
-    "https://picsum.photos/1600/900?2",
-    "https://picsum.photos/1600/900?3",
+   "./caroussel/img1.jpg",
+   "./caroussel/img2.jpg",
+   "./caroussel/img3.jpg",
+   "./caroussel/img4.jpg",
+   "./caroussel/img5.jpg",
   ];
 
 
