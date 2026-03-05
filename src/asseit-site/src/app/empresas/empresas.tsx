@@ -1,7 +1,7 @@
 
 export default function Empresas() {
   return (
-    <section className="bg-green-100" id="apresentacao">
+    <section className="bg-blue-200 pt-8 pb-8" id="apresentacao">
       <div className="relative w-full sm:w-2/3 lg:w-1/2 aspect-video overflow-hidden rounded-2xl mx-auto">
         <video
           className="w-full h-full object-cover"
