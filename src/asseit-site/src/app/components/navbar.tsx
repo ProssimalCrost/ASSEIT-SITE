@@ -43,8 +43,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="#empresas" className="flex items-center gap-1 hover:text-blue-700 transition">
-              <FactoryIcon fontSize="small" /> Empresas
+            <Link href="#apresentacao" className="flex items-center gap-1 hover:text-blue-700 transition">
+              <FactoryIcon fontSize="small" /> Apresentação
             </Link>
           </li>
           <li>
@@ -101,7 +101,7 @@ export default function Navbar() {
                 bg-white backdrop-blur-lg
                 rounded-2xl shadow-2xl
                 w-full max-w-sm mx-4
-                p-6
+                p-5
                 flex flex-col items-center gap-6
                 text-blue-900 font-medium"
             >
@@ -111,8 +111,8 @@ export default function Navbar() {
               <Link href="#noticias" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
                 <InfoIcon /> Noticias
               </Link>
-              <Link href="#empresas" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
-                <FactoryIcon /> Empresas
+              <Link href="#apresentacao" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
+                <FactoryIcon /> Apresentação
               </Link>
               <Link href="#modalidades" onClick={() => setMenuOpen(false)} className="flex gap-3 text-lg">
                 <PoolIcon /> Modalidades
