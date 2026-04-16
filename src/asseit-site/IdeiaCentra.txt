@@ -1,7 +1,6 @@
 lista abertos = 
 [
-
-*adicionar fotos com filtro escuro e corousel fotos ASSEI 
+*adicionar midia via CDN
 ]
 
 lista feios = 
@@ -11,4 +10,5 @@ lista feios =
 *Melhorar Footer || Done ||
 *Add links da area do usuario || Done ||
 *Ajusar o menu em tela moblie || Done ||
+*adicionar fotos com filtro escuro e corousel fotos ASSEI 
 ]

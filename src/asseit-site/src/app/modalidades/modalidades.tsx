@@ -31,28 +31,28 @@ export default function Modalidades() {
             <article className="rounded-2xl bg-blue-100 shadow-sm ring-1 ring-slate-200 p-6 md:p-8">
               <h2 className="text-xl md:text-2xl font-bold text-slate-900">Natação</h2>
               <p className="mt-3 ">
-                <img src="/imagens/natacao.png" alt="natacao" className="w-full rounded-md mb-3" />
+                <img src="https://res.cloudinary.com/dptbp5wvs/image/upload/v1776366605/WhatsApp_Image_2026-04-16_at_15.19.28_mnjbbm.jpg" alt="natacao" className="w-full rounded-md mb-3" />
               </p>
               <p className="text-slate-600 mt-3">
-                O esporte mais completo, desde cedo. 
+                O esporte mais completo, desde cedo.
                 A natação na ASSEIT é referência em aprendizado aquático.
                 A partir dos 4 anos, oferecemos uma estrutura de ponta para desenvolver a confiança e a saúde das crianças.
                 Garanta uma vaga na modalidade mais visada do clube!
               </p>
-              
+
             </article>
 
             {/* Hidroginástica */}
             <article className="rounded-2xl bg-blue-100 shadow-sm ring-1 ring-slate-200 p-6 md:p-8">
               <h2 className="text-xl md:text-2xl font-bold text-slate-900">Hidroginástica</h2>
               <p className="mt-3 text-slate-600">
-                <img src="/imagens/hidro.png" alt="hidroginástica" className="w-full rounded-md mb-3" />
+                <img src="https://res.cloudinary.com/dptbp5wvs/image/upload/v1776366605/WhatsApp_Image_2026-04-16_at_15.18.54_tjdsdg.jpg" alt="hidroginástica" className="w-full rounded-md mb-3" />
                 A hidroginástica é ideal para quem busca melhorar saúde, mobilidade e condicionamento
                 de forma leve e prazerosa. Por ser realizada na água, reduz o impacto nas
                 articulações, sendo recomendada para todas as idades — inclusive idosos, iniciantes e
                 pessoas em retorno à atividade física.
               </p>
-           
+
             </article>
           </div>
 
@@ -82,9 +82,34 @@ export default function Modalidades() {
           </div>
         </section>
 
-      {/*/////////////Seção Academia//////////////// */}
+        {/*/////////////Seção Academia//////////////// */}
 
         <section>
+          <div className="
+            relative
+            mx-4 sm:mx-6 lg:mx-10
+            my-10
+            px-4 sm:px-6 lg:px-12
+            py-10 sm:py-12 lg:py-16
+            bg-gray-50
+            rounded-2xl
+            shadow-sm
+            grid
+            grid-cols-1
+            md:grid-cols-2
+            lg:grid-cols-3
+            gap-6 lg:gap-8
+">
+            <img src="https://res.cloudinary.com/dptbp5wvs/image/upload/q_auto/f_auto/v1776366604/WhatsApp_Image_2026-04-16_at_16.07.08_vstps8.jpg"
+              className="w-full h-full object-cover object-center"
+              alt="" />
+            
+             <img src="https://res.cloudinary.com/dptbp5wvs/image/upload/v1776366605/WhatsApp_Image_2026-04-16_at_16.07.07_1_s8ukgh.jpg"
+              className="w-full h-full object-cover object-center"
+              alt="" />
+
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6 md:gap-8 justify-items-center mx-auto max-w-6xl px-4 pb-16 ">
             <article className="rounded-2xl bg-purple shadow-sm ring-1 ring-slate-200 p-6 md:p-8 bg-purple-100">
               <h2 className="text-xl md:text-2xl font-bold text-slate-900">Academia</h2>
@@ -104,10 +129,10 @@ export default function Modalidades() {
           </div>
 
           <div className="mt-4 rounded-2xl bg-white shadow-sm ring-1 ring-slate-200 p-3 md:p-4 bg-purple-200">
-              <div className="mt-2 text-xs text-slate-500 text-center">
-                <HorarioAcad/>
-              </div>
+            <div className="mt-2 text-xs text-slate-500 text-center">
+              <HorarioAcad />
             </div>
+          </div>
         </section>
 
       </main>
