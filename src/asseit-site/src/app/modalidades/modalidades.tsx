@@ -100,7 +100,7 @@ export default function Modalidades() {
             lg:grid-cols-3
             gap-6 lg:gap-8
 ">
-            <img src="https://res.cloudinary.com/dptbp5wvs/image/upload/q_auto/f_auto/v1776366604/WhatsApp_Image_2026-04-16_at_16.07.08_vstps8.jpg"
+            <img src="https://res.cloudinary.com/dptbp5wvs/image/upload/q_auto/f_auto/v1778067520/WhatsApp_Image_2026-05-06_at_08.37.30_tjie9n.jpg"
               className="w-full h-full object-cover object-center"
               alt="" />
             
