@@ -108,6 +108,10 @@ export default function Modalidades() {
               className="w-full h-full object-cover object-center"
               alt="" />
 
+              <img src="https://res.cloudinary.com/dptbp5wvs/image/upload/q_auto/f_auto/v1778068037/WhatsApp_Image_2026-05-06_at_08.44.28_z6egp8.jpg"
+              className="w-full h-full object-cover object-center"
+              alt="" />
+
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6 md:gap-8 justify-items-center mx-auto max-w-6xl px-4 pb-16 ">
