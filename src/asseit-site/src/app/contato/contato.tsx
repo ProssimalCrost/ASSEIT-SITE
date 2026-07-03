@@ -22,8 +22,8 @@ export default function Contato() {
             <tr className="hover:bg-gray-100 transition-colors text-lg">
               <td className="py-2 px-3 text-gray-800">Secretaria do Clube</td>
               <td className="py-2 px-3 text-blue-600 font-medium">
-                <a href="tel:+553138491774" className="hover:underline">
-                  (31) 3849-1774
+                <a href="tel:+5531986584245" className="hover:underline">
+                  (31) 9 8658-4245
                 </a>
               </td>
             </tr>
